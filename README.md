@@ -1,34 +1,33 @@
-# Universal-UPS-Monitor-and-logging-software
+# Universal UPS Monitor & Logging Software
 
-This tool allows you to easily monitor your UPS via the RS232 port and even record real-time values. you can use recorded values after be used to generate graphs or analyze usage, grid status etc.
-  
-  -------------------------  
-  
-🛠 Usage  
+![GitHub License](https://img.shields.io/github/license/oktaymercan/Universal-UPS-Monitor-and-logging-software)
+![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-darkmagenta.svg)
 
-**Note: You should run this program from CMD (Terminal) otherwise not working.**  
+A lightweight yet powerful tool designed to monitor your UPS (Uninterruptible Power Supply) via the **RS232 serial port**. This software provides real-time status updates and logs critical data into a format ready for analysis.
 
-Open CMD (terminal) and go to file directory for example; C:\users\username\Desktop then write this comand:
 
-    python Universal UPS Monitor and logging software.py  
 
-  or  
-  
-    just write python and then swipe file to terminal window and run, but this way log file will be generated generally your home directory.
-  Then write your adapter COM port number like COM5 or COM1.  
-  After that write baudrate generally must be the 2400 but for sure, check your UPS datasheet.  
-  Enjoy the monitoring and logging.  
-  
-  -------------------------  
-  
-🚀 Features  
-  ***You can select COM port**  
-  ***You can select Baudrate**  
-  ***Monitor your values:**  
-<img width="1108" height="615" alt="image" src="https://github.com/user-attachments/assets/a256da23-634f-47a6-92a5-b51159b38ffd" />  
+## 🚀 Key Features
 
-  ***Real time record that values to .csv file. Here is the example look happened to spreadsheet:**  
-<img width="1290" height="1068" alt="image" src="https://github.com/user-attachments/assets/a3b1b4fb-9f4f-4dad-b0b4-0aa533c5e91e" />  
-  
--------------------------  
-I used AI to made.
+* ✅ **Port Selection:** Easily specify your adapter's COM port (e.g., COM5 or /dev/ttyUSB0).
+* ✅ **Custom Baudrate:** Compatible with various UPS models by allowing manual baudrate entry (standard is 2400).
+* ✅ **Live Monitoring:** Instant visibility into grid status, battery levels, and voltage.
+* ✅ **CSV Data Logging:** Automatically records real-time values to a `.csv` file for easy graphing in Excel or Google Sheets.
+* ✅ **Simple Interface:** Clean terminal-based output for low resource consumption.
+
+## 🛠 Prerequisites
+
+Before running the program, ensure you have **Python** installed and the `pyserial` library:
+
+     pip install pyserial
+     
+## 📸 Screenshots  
+Real-Time Monitoring Panel
+<img width="1108" height="615" alt="Live Monitor" src="https://github.com/user-attachments/assets/a256da23-634f-47a6-92a5-b51159b38ffd" />
+
+CSV Output (Spreadsheet View)
+<img width="1290" height="1068" alt="Logged Data" src="https://github.com/user-attachments/assets/a3b1b4fb-9f4f-4dad-b0b4-0aa533c5e91e" />  
+
+---  
+AI used.
