@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/github/license/oktaymercan/Universal-UPS-Monitor-and-logging-software)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-darkmagenta.svg)
+![Platform](https://img.shields.io/badge/platform-Cross%20Platform-darkred.svg)
 
 A lightweight yet powerful tool designed to monitor your UPS (Uninterruptible Power Supply) via the **RS232 serial port**. This software provides real-time status updates and logs critical data into a format ready for analysis.
 
