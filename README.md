@@ -1,6 +1,5 @@
 # Universal UPS Monitor & Logging Software
 
-![GitHub License](https://img.shields.io/github/license/oktaymercan/Universal-UPS-Monitor-and-logging-software)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Cross%20Platform-darkred.svg)
 
@@ -30,4 +29,9 @@ CSV Output (Spreadsheet View)
 <img width="1290" height="1068" alt="Logged Data" src="https://github.com/user-attachments/assets/a3b1b4fb-9f4f-4dad-b0b4-0aa533c5e91e" />  
 
 ---  
+
+Copyright (c) 2026 Oktay Mercan https://github.com/OKTAYMERCAN/Universal-UPS-Monitor-and-logging-software
+
+---
+
 AI used.
